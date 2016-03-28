@@ -18,6 +18,7 @@ button {
   border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   font-size: 14px;
+  font-weight: bold;
   background-color: #26a69a;
   color: #fff;
   text-decoration: none;
@@ -25,4 +26,10 @@ button {
   text-transform: uppercase;
   letter-spacing: .5px;
   outline: 0;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+button:hover {
+  background-color: #2bbbad;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
 }
