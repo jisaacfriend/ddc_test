@@ -25,10 +25,11 @@ textarea {
   box-shadow: none;
   box-sizing: content-box;
   transition: all .3s;
-}
-textarea:focus {
-  border-bottom: 1px solid #26a69a;
-  box-shadow: 0 1px 0 0 #26a69a;
+  
+  &:focus {
+    border-bottom: 1px solid #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
+  }
 }
 
 button {
@@ -50,8 +51,25 @@ button {
   outline: 0;
   cursor: pointer;
   transition: all .3s ease-out;
-}
-button:hover {
-  background-color: #2bbbad;
-  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+
+  &:hover {
+    background-color: #2bbbad;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  }
+ }
+
+.prescreen-output {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 15px;
+    border-radius: 2px;
+
+    li {
+      margin: 5px 0;
+    }
+
+    .prescreen-palindrome {
+      font-weight: bold;
+    }
 }
