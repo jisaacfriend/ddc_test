@@ -49,6 +49,150 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+/* #Typography
+================================================== */
+html {
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 12px;
+  margin: 0 rem 0 rem .75 rem;
+  line-height: 1; }
+
+h1 {
+  font-size: 32px;
+  font-size: 2 rem; }
+
+h2 {
+  font-size: 24px;
+  font-size: 1.5 rem; }
+
+h3 {
+  font-size: 18.72px;
+  font-size: 1.17 rem; }
+
+h4 {
+  font-size: 17.92px;
+  font-size: 1.12 rem; }
+
+h5 {
+  font-size: 13.28px;
+  font-size: .83 rem; }
+
+h6 {
+  font-size: 12px;
+  font-size: .75 rem; }
+
+p {
+  font-size: 16px;
+  margin: 0 0 1.5em;
+  font-size: 1 rem;
+  margin: 0 0 1.5 rem;
+  line-height: 1.5; }
+
+strong,
+b {
+  font-weight: bold; }
+
+i,
+em {
+  font-style: italic; }
+
+small {
+  font-size: 12.8px;
+  font-size: .8 rem; }
+
+pre {
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+  margin: 1 rem 0 rem; }
+
+blockquote,
+q {
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin-bottom: 1em;
+  position: relative;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify; }
+
+blockquote:before,
+q:before {
+  content: "\201C";
+  /* Unicode for Left Double Quote */
+  font-family: Georgia, serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: #999;
+  position: absolute;
+  left: 10px;
+  top: 5px; }
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin: 1em 0;
+  padding-left: 40px; }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin: 1em 0;
+  padding-left: 40px; }
+
+sup {
+  vertical-align: super;
+  font-size: .5em; }
+
+sub {
+  vertical-align: sub;
+  font-size: .5em; }
+
+.text--lowercase {
+  text-transform: lowercase; }
+
+.text--uppercase {
+  text-transform: uppercase; }
+
+.text--capitalize {
+  text-transform: capitalize; }
+
+.text--light {
+  font-weight: lighter; }
+
+.text--normal {
+  font-weight: normal; }
+
+.text--bold {
+  font-weight: bolder; }
+
+.text--italic {
+  font-style: italic; }
+
+.text--left {
+  text-align: left; }
+
+.text--right {
+  text-align: right; }
+
+.text--center {
+  text-align: center; }
+
+.text--justfiy {
+  text-align: justify; }
+
 /* #Box-Sizing
 ================================================== */
 *, *:before, *:after {
