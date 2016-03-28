@@ -805,7 +805,6 @@ sub {
 textarea {
   overflow-y: hidden;
   padding: 1.6rem 0;
-  resize: none;
   min-height: 3rem;
   background-color: transparent;
   border: none;
